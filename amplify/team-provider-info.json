@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-resistancecodenextjs-dev-125822-authRole",
+      "UnauthRoleArn": "arn:aws:iam::564445131558:role/amplify-resistancecodenextjs-dev-125822-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::564445131558:role/amplify-resistancecodenextjs-dev-125822-authRole",
+      "Region": "eu-west-3",
+      "DeploymentBucketName": "amplify-resistancecodenextjs-dev-125822-deployment",
+      "UnauthRoleName": "amplify-resistancecodenextjs-dev-125822-unauthRole",
+      "StackName": "amplify-resistancecodenextjs-dev-125822",
+      "StackId": "arn:aws:cloudformation:eu-west-3:564445131558:stack/amplify-resistancecodenextjs-dev-125822/7925cc70-c3e9-11ed-832c-0e6447fde7b8",
+      "AmplifyAppId": "d1gredy2iwhul1"
+    },
+    "categories": {
+      "auth": {
+        "resistancecodenextjs69daf8ef": {}
+      }
+    }
+  }
+}
