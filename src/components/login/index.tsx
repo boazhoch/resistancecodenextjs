@@ -30,22 +30,17 @@ const Login = () => {
   }, []);
 
   return (
-    <div className="App">
-      <button onClick={() => Auth.federatedSignIn()}>Open Hosted UI</button>
-
-      <button
-        onClick={() =>
-          Auth.federatedSignIn({
-            provider: CognitoHostedUIIdentityProvider.Google,
-          })
-        }
-      >
-        Open Google
-      </button>
-
-      <button onClick={() => Auth.signOut()}>Sign Out</button>
-      <div>{user}</div>
-    </div>
+    <button
+      className="bg-blue-600 hover:text-blue-600 hover:bg-white text-white font-bold py-2 px-4 shadow-md rounded transition-all duration-200 ease-in-out"
+      type="button"
+      onClick={() => {
+        Auth.federatedSignIn({
+          provider: CognitoHostedUIIdentityProvider.Google,
+        });
+      }}
+    >
+      התחבר/י
+    </button>
   );
 };
 
